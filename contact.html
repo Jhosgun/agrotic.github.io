@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AgroTic</title>
+    <link  rel="shortcut icon" href="images/small-plant-on-pile-soil-260nw-594580799.jpg">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="course.html">SERVICIOS</a>
+                        <div class="sub-menu-1">
+                   <ul>
+                   <li><a href="agriculture.html"><i class="fas fa-leaf"></i>Agriculture</a></li>
+                   <li><a href="water.html"><i class="fas fa-tint"></i>Water</a></li>
+                   <li><a href="environment.html"><i class="fas fa-globe-americas"></i>Environment</a></li>
+                   
+                   </ul>
+                        </div>
+                       </li>    
+                    <li><a href="about.html">NOSOTROS</a></li>   
+                    <li><a href="blog.html">TESTIMONIOS</a></li>
+                    <li><a href="contact.html">CONTACTENOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1 class="header-title">Contact Us</h1>
+        
+    
+    
+    </section>
+    <!------Contact Us------> 
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1979.5975092366662!2d-73.1202622119605!3d7.103383304747781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fc65632ce69%3A0x233bd60ad5ec0691!2sConjunto%20Residencial%20Torcoroma!5e0!3m2!1ses!2sco!4v1627766112739!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="contact-us">
+<div class="row">
+ 
+    <div class="comment-box">
+        <h3>Send A Message</h3>
+    <div class="contact-col">
+<form action="form-handler.php" method="POST">
+<input type="text" name="name" placeholder="Enter your name" required>
+<input type="email" name="email" placeholder="Enter email adrres" required>
+<input type="text" name="subject" placeholder="Enter your subject" required>
+<textarea  rows="8" name="message" placeholder="message" required></textarea>
+<button type="submit" class="hero-btn red-btn">Send message</button>
+
+</div>
+
+</form>
+
+</div>
+<div class="contact-col">
+    <div>
+        <i class="fa fa-home" ></i>
+        <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Bucaramanga,Santander,Col</p>
+        </span>
+    </div>
+    <div>
+        <i class="fa fa-phone" ></i>
+        <span>
+            <h5>+57 3007674283</h5>
+            <p>Mondays to Saturdays, 10AM to 6PM</p>
+        </span>
+    </div>
+    <div>
+        <i class="fa fa-envelope-o"></i>
+        <span>
+            <h5>juanjaimes@gmail.com</h5>
+            <p>Email Us</p>
+        </span>
+    </div>
+        </div>
+</div>
+
+    </section>
+
+    
+      <!------footer------> 
+      <section >
+        <footer>
+             <div class="social-icons">
+                 <a href="https://www.facebook.com/jorgealfredo.jaimesteheran" target="blank_"> <i class="fa fa-facebook" ></i>  </a>
+                 <a href="https://co.linkedin.com/in/jhosgun" target="blank_">  <i class="fa fa-linkedin" ></i></a>
+                   <a href="https://www.youtube.com/channel/UCmo9FMZP7IxKNAuGG_ywnPA" target="blank_"><i class="fa fa-youtube" ></i></a>
+             </div>
+             <p class="copyright">+57 3206475879</p>
+         </footer>
+       </section>
+ 
+
+
+
+
+<!------JavaScript for Toggle Menu----------->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
